@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+
+permissions: write-all
+
 env:
   DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKERHUB_KEY: ${{ secrets.DOCKER_KEY }}
