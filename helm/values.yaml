@@ -3,9 +3,6 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
-#permissions: write-all
-
 env:
   APP_VERSION: latest
 
