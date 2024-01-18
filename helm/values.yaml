@@ -4,7 +4,7 @@
 
 replicaCount: 1
 
-permissions: write-all
+#permissions: write-all
 
 env:
   APP_VERSION: latest
