@@ -16,12 +16,12 @@ spec:
         spec:
             containers:
                 - name: app
-                  image: matesousa/app-helm:{{ .Values.env.APP_VERSION }}
+                  image: shuayb1/app-helm:{{ .Values.env.APP_VERSION }}
                   ports:
                     - containerPort: 3000
                   env:
                   - name: NAME
-                    value: 'Matheus'
+                    value: 'Shuayb'
                   readinessProbe:
                     httpGet:
                         path: /health
