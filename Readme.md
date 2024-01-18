@@ -24,6 +24,14 @@ kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
+## On Windows
+
+```
+choco install argocd-cli
+argocd login localhost:8080
+argocd cluster add docker-desktop
+```
+
 ## Set up Helm 
 Step 1: Install Helm:
 
